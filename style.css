@@ -13,7 +13,11 @@ header{
     z-index: 10;
 }
 #logo{
-    width: 25%;
+    width: 30%; 
+    padding-top: 10px;
+}
+.log{
+    text-align: center;
 }
 .cab{
   font-size: 3.5vw;
@@ -39,7 +43,7 @@ header{
 
 #principal{
     background-color: blueviolet;
-    background-image: url("img/body/hamburguer.jpg");
+    background-image: url("img/body/fundopng.png");
     height: auto;
 }
 .corpo{
