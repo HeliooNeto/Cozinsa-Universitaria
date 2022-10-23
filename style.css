@@ -44,15 +44,35 @@ header{
 #principal{
     background-color: blueviolet;
     background-image: url("img/body/fundopng.png");
-    height: auto;
 }
 .corpo{
-    margin: 0px 150px;
+    /* margin: 0px 150px; */
+    width: 920px;
     text-align: center;
     background-color: white;
     opacity: 0.8;
+    margin: auto;
+}
+
+
+
+#rodape
+{
+    border: 1px solid red;
+    clear: both;
 }
 /* Index Giovana */
-
+.doce{
+    border: 1px solid red;
+    width: 450px;
+    float: left;
+}
+/* Index Jennifer */
+.salgada{
+    border: 1px solid red;
+    width: 450px;
+    float: right;
+    background: white;
+}
 /* Sobre nós Helio */
 
