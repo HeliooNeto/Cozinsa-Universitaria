@@ -6,7 +6,7 @@
 }
  /* Cabeçalho */
 header{
-    width: 100vw;
+    width: 98.9vw;
     height: 60%;
     background-color: hsl(50, 100%, 50%, 100%);
     position: sticky ;
@@ -49,8 +49,7 @@ header{
     /* margin: 0px 150px; */
     width: 920px;
     text-align: center;
-    background-color: white;
-    opacity: 0.8;
+    background-color: hsl(0, 100%, 100%, 80%);
     margin: auto;
 }
 
@@ -75,4 +74,13 @@ header{
     background: white;
 }
 /* Sobre nós Helio */
-
+.contato{
+    width: 50vw;
+    height: 100px;
+    margin: 0 auto 60px auto ;
+    border: solid 1px red;
+}
+.sob{
+    width: 200px;
+    height: 100px;
+}
