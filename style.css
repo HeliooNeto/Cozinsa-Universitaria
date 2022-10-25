@@ -87,6 +87,8 @@ header{
     border: solid 1px red;
     display: flex;
     align-items: center;
+    font-family: 'Satisfy', cursive;
+    font-size:2vw;
 }
 .sob{
     border: solid 1px red;
@@ -94,4 +96,5 @@ header{
     height: 200px;
     border-radius: 50%;
     margin: 0 10px 0 0;
+
 }
