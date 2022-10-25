@@ -78,14 +78,16 @@ header{
 /* Sobre nós Helio */
 .contato{
     width: 50vw;
-    height: 100px;
+    height: 200px;
     margin: 0 auto 60px auto ;
     border: solid 1px red;
+    display: flex;
+    align-items: center;
 }
 .sob{
     border: solid 1px red;
-    width: 400px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
     border-radius: 50%;
-    
+    margin: 0 10px 0 0;
 }
