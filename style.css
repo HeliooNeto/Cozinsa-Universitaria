@@ -8,7 +8,7 @@
 header{
     width: 98.9vw;
     height: 60%;
-    background-color: hsl(50, 100%, 50%, 100%);
+    background-color: hsl(30, 100%, 50%, 100%);
     position: sticky ;
     z-index: 10;
 }
@@ -25,12 +25,14 @@ header{
   text-decoration: none;
   position: sticky;
   font-family: 'Satisfy', cursive;
+  color: hsl(30, 100%, 0%, 100%);
 }
 #inpage{
-    opacity: 50%;
+    opacity: 70%;
+    color: white;
 }
 .cab:hover{
-    color: hsl(0, 100%, 50%, 90%);
+    color: hsl(30, 100%, 100%, 90%);
     transition: 1s;
 }
 .redes{
@@ -44,13 +46,13 @@ header{
 /* todos os corpos */
 
 #principal{
-    background-color: blueviolet;
+    background-color:hsl(0, 100%, 100%, 80%);
     background-image: url("img/body/fundopng.png");
 }
 .corpo{
     /* margin: 0px 150px; */
     width: 920px;
-    background-color: hsl(0, 100%, 100%, 80%);
+    background-color: rgba(243, 242, 242, 0.8);
     margin: auto;
 }
 .titulo{
@@ -64,7 +66,7 @@ header{
 #rodape
 {
     font-size: 1vw;
-    border: 1px solid red;
+    background-color: rgb(200, 200, 200);
     clear: both;
 }
 /* Index Giovana */
@@ -84,14 +86,14 @@ header{
     width: 50vw;
     height: 200px;
     margin: 0 auto 60px auto ;
-    border: solid 1px red;
+    /* border: solid 1px red; */
     display: flex;
     align-items: center;
     font-family: 'Satisfy', cursive;
     font-size:2vw;
 }
 .sob{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 250px;
     height: 200px;
     border-radius: 50%;
