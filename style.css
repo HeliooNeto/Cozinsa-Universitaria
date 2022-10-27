@@ -76,12 +76,11 @@ header {
 /* Index Jenniffer */
 .salgada {
   border: 2px solid red;
-  margin: 4px auto;
   width: 465px;
   float: right;
   border-radius: 10px;
   text-align: center;
-  padding: 50px;
+  padding: 40px;
 }
 /* Sobre nós Helio */
 .contato {
