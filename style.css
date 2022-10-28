@@ -1,105 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Satisfy&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- /* Cabeçalho */
-header{
-    width: 98.9vw;
-    height: 60%;
-    background-color: hsl(30, 100%, 50%, 100%);
-    position: sticky ;
-    z-index: 10;
+/* Cabeçalho */
+header {
+  width: 98.9vw;
+  height: 60%;
+  background-color: hsl(30, 100%, 50%, 100%);
+  position: sticky;
+  z-index: 10;
 }
-#logo{
-    width: 30%; 
-    padding-top: 10px;
+#logo {
+  width: 30%;
+  padding-top: 10px;
 }
-.log{
-    text-align: center;
+.log {
+  text-align: center;
 }
-.cab{
+.cab {
   font-size: 3.5vw;
   margin: 2%;
   text-decoration: none;
   position: sticky;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   color: hsl(30, 100%, 0%, 100%);
 }
-#inpage{
-    opacity: 70%;
-    color: white;
+#inpage {
+  opacity: 70%;
+  color: white;
 }
-.cab:hover{
-    color: hsl(30, 100%, 100%, 90%);
-    transition: 1s;
+.cab:hover {
+  color: hsl(30, 100%, 100%, 90%);
+  transition: 1s;
 }
-.redes{
-    border-radius: 10px;
-    margin-top: 10px;  
+.redes {
+  border-radius: 10px;
+  margin-top: 10px;
 }
-.redes:hover{
-    scale: 1.3;
-    transition: 1s;
+.redes:hover {
+  scale: 1.3;
+  transition: 1s;
 }
 /* todos os corpos */
 
-#principal{
-    background-color:hsl(0, 100%, 100%, 80%);
-    background-image: url("img/body/fundopng.png");
+#principal {
+  background-color: hsl(0, 100%, 100%, 80%);
+  background-image: url("img/body/fundopng.png");
 }
-.corpo{
-    /* margin: 0px 150px; */
-    width: 920px;
-    background-color: rgba(243, 242, 242, 0.8);
-    margin: auto;
+.corpo {
+  /* margin: 0px 150px; */
+  width: 920px;
+  background-color: rgba(243, 242, 242, 0.8);
+  margin: auto;
 }
-.titulo{
-    text-align: center;
+.titulo {
+  text-align: center;
 }
-.formulario{
-    text-align: center;
+.formulario {
+  text-align: center;
 }
 
-
-#rodape
-{
-    font-size: 1vw;
-    background-color: rgb(200, 200, 200);
-    clear: both;
+#rodape {
+  font-size: 1vw;
+  background-color: rgb(200, 200, 200);
+  clear: both;
 }
 /* Index Giovana */
-.doce{
-    border: 1px solid red;
-    width: 450px;
-    float: left;
+.doce {
+  border: 1px solid red;
+  width: 450px;
+  float: left;
 }
-/* Index Jennifer */
-.salgada{
-    border: 1px solid red;
-    width: 450px;
-    float: right;
+/* Index Jenniffer */
+.salgada {
+  border: 2px solid red;
+  width: 465px;
+  float: right;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
 }
 /* Sobre nós Helio */
-.contato{
-    width: 50vw;
-    height: 200px;
-    margin: 0 auto 60px auto ;
-    /* border: solid 1px red; */
-    display: flex;
-    align-items: center;
-    font-family: 'Satisfy', cursive;
-    font-size:2vw;
+.contato {
+  width: 50vw;
+  height: 200px;
+  margin: 0 auto 60px auto;
+  /* border: solid 1px red; */
+  display: flex;
+  align-items: center;
+  font-family: "Satisfy", cursive;
+  font-size: 2vw;
 }
-.sob{
-    /* border: solid 1px red; */
-    width: 250px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 0 10px 0 0;
+.sob {
+  /* border: solid 1px red; */
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
 }
-.fig{
-    float: right;
-    margin: 50px 0 0 50px 
+.fig {
+  float: right;
+  margin: 50px 0 0 50px;
 }
+
+/* Hello world */
