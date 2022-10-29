@@ -46,13 +46,14 @@ header {
 /* todos os corpos */
 
 #principal {
-  background-color: hsl(0, 100%, 100%, 80%);
+  background-color: hsla(0, 100%, 100%, 100%);
   background-image: url("img/body/fundopng.png");
 }
 .corpo {
   /* margin: 0px 150px; */
   width: 920px;
-  background-color: rgba(243, 242, 242, 0.8);
+  /* background-color: rgba(243, 242, 242, 0.9); */
+  background-color: hsla(0, 100%, 100%, 95%);
   margin: auto;
 }
 .titulo {
