@@ -50,9 +50,7 @@ header {
   background-image: url("img/body/fundopng.png");
 }
 .corpo {
-  /* margin: 0px 150px; */
   width: 920px;
-  /* background-color: rgba(243, 242, 242, 0.9); */
   background-color: hsla(0, 100%, 100%, 95%);
   margin: auto;
 }
@@ -129,15 +127,12 @@ input [type="text"]{
   font-size: 2vw;
 }
 .sob {
-  /* border: solid 1px red; */
   width: 250px;
   height: 200px;
   border-radius: 50%;
   margin: 0 10px 0 0;
 }
-.fig {
+.fig{
   float: right;
   margin: 50px 0 0 50px;
 }
-
-/* Hello world */
