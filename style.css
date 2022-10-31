@@ -46,21 +46,46 @@ header {
 /* todos os corpos */
 
 #principal {
-  background-color: hsl(0, 100%, 100%, 80%);
+  background-color: hsla(0, 100%, 100%, 100%);
   background-image: url("img/body/fundopng.png");
 }
 .corpo {
-  /* margin: 0px 150px; */
   width: 920px;
-  background-color: rgba(243, 242, 242, 0.8);
+  background-color: hsla(0, 100%, 100%, 95%);
   margin: auto;
 }
 .titulo {
   text-align: center;
 }
-.formulario {
-  margin-top: -30px;
-  text-align: center;
+form {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-left: 100px;
+}
+
+fieldset{
+  margin: 1em 0px;
+  width: 720px;
+}
+
+legend{
+  font-weight: bold;
+}
+
+form div{
+  padding: 0.5em;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+}
+
+#nome, #email, #assunto{
+  width: 33em;
+}
+
+.radio{
+  display: flex;
 }
 
 .hrcontato{
@@ -98,22 +123,18 @@ header {
   width: 50vw;
   height: 200px;
   margin: 0 auto 60px auto;
-  /* border: solid 1px red; */
   display: flex;
   align-items: center;
   font-family: "Satisfy", cursive;
   font-size: 2vw;
 }
 .sob {
-  /* border: solid 1px red; */
   width: 250px;
   height: 200px;
   border-radius: 50%;
   margin: 0 10px 0 0;
 }
-.fig {
+.fig{
   float: right;
   margin: 50px 0 0 50px;
 }
-
-/* Hello world */
