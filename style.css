@@ -59,10 +59,12 @@ header {
 }
 form {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-left: 100px;
 }
 
 fieldset{
   margin: 1em 0px;
+  width: 720px;
 }
 
 legend{
@@ -78,8 +80,8 @@ label{
   cursor: pointer;
 }
 
-input [type="text"]{
-  width: 20em;
+#nome, #email, #assunto{
+  width: 33em;
 }
 
 .radio{
