@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,48 +9,77 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="img/cabeçalho/favicon.ico">
 </head>
+
 <body>
     <header>
         <nav>
-                <ul class="log">
-                    <a href="index.html" class="cab"><img src="./img/cabeçalho/logo pronta.png" alt="" id="logo"></a>
-                </ul>
             <ul class="log">
-                <a href="index.html" class="cab"><strong> Home </strong></a> 
-                <a href="sobrenos.html" class="cab"><strong> Sobre nós </strong></a> 
+                <a href="index.html" class="cab"><img src="./img/cabeçalho/logo pronta.png" alt="" id="logo"></a>
+            </ul>
+            <ul class="log">
+                <a href="index.html" class="cab"><strong> Home </strong></a>
+                <a href="sobrenos.html" class="cab"><strong> Sobre nós </strong></a>
                 <a href="contato.html" class="cab" id="inpage"><strong>Contato </strong></a>
             </ul>
         </nav>
     </header>
-<div id="principal">
-    <div class="corpo">
-        <br><br><br>
-        <form class="formulario"> <!--form serve pra receber dados dos usuários porém neste projeto não tem essa função-->
-            <h2>Fale Conosco</h2>
-            <strong>Seu e-mail:</strong><br>
-            <input type="email" name="email"><br><br> <!--input cria uma caixa digitável-->
-            <strong>Assunto:</strong><br>
-            <input type="text" name="assunto"><br><br>
-            <strong>Descrição:</strong><br>
-            <textarea></textarea><br><br>
-            <input type="submit" value="Enviar"><br><br>
-            
-            <hr class="hrcontato">
+    <div id="principal">
+        <div class="corpo">
+            <form><!--form serve pra receber dados dos usuários porém neste projeto não tem essa função-->
+                <fieldset>
 
-        </form>
-        <div>
-            <ul id="socialprofile">
-                <h2>Siga nas redes sociais</h2>
-                <a href="" class="cab"><img src="./img/cabeçalho/tik.png" alt=""class="redes"></a>
-                <a href="" class="cab"><img src="./img/cabeçalho/tube.png" alt=""class="redes"></a>
-                <a href="" class="cab"><img src="./img/cabeçalho/insta.png" alt=""class="redes"></a>
-                <a href="" class="cab"><img src="./img/cabeçalho/zap.png" alt=""class="redes"></a>
-            </ul>
-            <footer id="rodape">
-                <h4 class="titulo">© COPYRIGHT 2022-2022 COZINHA UNIVERSITÁRIA LTDA, TODOS OS DIREITOS RESERVADOS. PROIBIDA A REPRODUÇÃO SEM AUTORIZAÇÃO.</h4>
-            </footer>
+                    <legend>Dados para contato</legend>
+
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" name="assunto" id="assunto">
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Comentários</legend>
+                    <div>
+                        <label for="mensagem">
+                            <label for="mensagem" class="box">Mensagem:</label>
+                            <textarea name="mensagem" id="mensagem" cols="60" rows="10"></textarea>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label for="sim">Deseja receber sugestões de receitas por e-mail?</label>
+                            <input type="radio" name="novidades" id="sim">Sim 
+    
+                        <label for="nao"></label>
+                            <input type="radio" name="novidades" id="nao">Não       
+                    </div>
+                </fieldset>
+            </form>
+            <div>
+                <ul id="socialprofile">
+                    <h2>Siga nas redes sociais</h2>
+                    <a href="" class="cab"><img src="./img/cabeçalho/tik.png" alt="" class="redes"></a>
+                    <a href="" class="cab"><img src="./img/cabeçalho/tube.png" alt="" class="redes"></a>
+                    <a href="" class="cab"><img src="./img/cabeçalho/insta.png" alt="" class="redes"></a>
+                    <a href="" class="cab"><img src="./img/cabeçalho/zap.png" alt="" class="redes"></a>
+                </ul>
+                <footer id="rodape">
+                    <h4 class="titulo">© COPYRIGHT 2022-2022 COZINHA UNIVERSITÁRIA LTDA, TODOS OS DIREITOS RESERVADOS.
+                        PROIBIDA A REPRODUÇÃO SEM AUTORIZAÇÃO.</h4>
+                </footer>
+            </div>
         </div>
     </div>
-</div>
 </body>
+
 </html>
