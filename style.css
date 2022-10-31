@@ -57,45 +57,10 @@ header {
 .titulo {
   text-align: center;
 }
-form {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  margin-left: 100px;
-}
-
-fieldset{
-  margin: 1em 0px;
-  width: 720px;
-}
-
-legend{
-  font-weight: bold;
-}
-
-form div{
-  padding: 0.5em;
-}
-
-label{
-  display: block;
-  cursor: pointer;
-}
-
-#nome, #email, #assunto{
-  width: 33em;
-}
-
-.radio{
-  display: flex;
-}
 
 .hrcontato{
   width: 620px;
   margin-left: 150px;
-}
-
-#socialprofile{
-  margin: 20px 0px;
-  text-align: center;
 }
 
 #rodape {
@@ -137,4 +102,53 @@ label{
 .fig{
   float: right;
   margin: 50px 0 0 50px;
+}
+
+/* 
+*************Contato Jonathan*************
+*/
+
+form {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin-left: 100px;
+}
+
+fieldset{
+  margin: 1em 0px;
+  width: 720px;
+}
+
+#socialprofile2{
+  margin-left: 100px;
+}
+
+legend{
+  font-weight: bold;
+}
+
+form div{
+  padding: 0.5em;
+}
+
+label{
+  display: block;
+  cursor: pointer;
+}
+
+#nome, #email, #assunto{
+  width: 33em;
+}
+
+.radio{
+  display: flex;
+}
+
+#socialprofile{
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.submit{
+  padding: 0px;
+  margin-bottom: 30px;
 }
