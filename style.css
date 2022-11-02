@@ -70,9 +70,12 @@ header {
 }
 /* Index Giovana */
 .doce {
-  border: 1px solid red;
+  border: 2px solid red;
   width: 450px;
   float: left;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
 }
 /* Index Jenniffer */
 .salgada {
